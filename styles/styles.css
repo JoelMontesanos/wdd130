@@ -1,16 +1,23 @@
+:root{
+    --background-color: darkblue;
+    --padding-10: 10px; /*does not make a lot of sence this variable but for learning*/
+    /* This css is kind of short to use many variables but i used 2*/
+}
+
+
 nav{
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--background-color);
+    padding: var(--padding-10);
 }
 
 nav a {
-    background-color: darkblue;
+    background-color: var(--background-color);
     display: block;
-    padding: 10px;
+    padding: var(--padding-10);
 }
 
 h1{
-    color: darkblue;
+    color: var(--background-color);
 }
 
 main img{
