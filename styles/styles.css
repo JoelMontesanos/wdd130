@@ -1,9 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --background-color: darkblue;
     --padding-10: 10px; /*does not make a lot of sence this variable but for learning*/
     /* This css is kind of short to use many variables but i used 2*/
 }
-
 
 nav{
     background-color: var(--background-color);
@@ -26,6 +31,7 @@ main img{
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p{
@@ -37,12 +43,7 @@ main{
 }
 
 aside{
-    width: 15rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, .2);
-    padding: 1rem ;
-    background-color: #eee;
-    color: #333;
+    width: 20rem;
     text-align: center;
 }
 aside img{
@@ -54,4 +55,20 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 660px;
+    left: 75px;
+}
+
+/* Class Selectors */
+
+.box{
+    border: 1px solid rgb(0, 0, 0 / 10%);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: gray;
+    color: #000;
 }
