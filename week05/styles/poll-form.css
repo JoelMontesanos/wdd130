@@ -1,0 +1,99 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #000; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    border: 1px solid #bfbfbf;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+legend {
+    color: #000080; 
+    font-size: 1.2rem;
+    padding: 0 5px;
+}
+
+.contact-info .form-group {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.contact-info label {
+    text-align: right; 
+}
+
+.questions .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.questions .checkbox-row {
+    margin-top: 15px;
+}
+
+.questions textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin: 0 auto; 
+    background-color: #000080;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #666;
+}
