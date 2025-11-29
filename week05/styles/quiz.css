@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #000080;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+fieldset div input[type="radio"] + label {
+    color: #555;
+    margin-right: 15px;
+    display: inline;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 0;
+}
+body div{
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+header h1{
+    color: #000080;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+fieldset{
+    border: none;
+    margin: 0 0 20px 0;
+    max-width: 90%;
+}
+
+label{
+    color: #333;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+fieldset div > label:first-child {
+    color: #000080;
+    font-weight: bold;
+    display: block; 
+    margin-bottom: 10px;
+}
