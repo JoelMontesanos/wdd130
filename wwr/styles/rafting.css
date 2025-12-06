@@ -336,3 +336,428 @@ button {
     display: block;
     margin-top: 8px;
 }
+
+.newsletter {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    color: white;
+    border-bottom: none;
+}
+
+.newsletter form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    background-color: var(--accent1-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 40px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.cta h2 {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.grid-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.experience {
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.experience-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.experience-content img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.experience-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.trips-hero {
+    position: relative;
+    margin: 20px 0;
+}
+
+.trips-hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(26, 82, 118, 0.85);
+    color: white;
+    font-family: var(--heading-font);
+    z-index: 2;
+}
+
+.trips-hero img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cta-overlay {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 350px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-overlay h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    border-bottom: none;
+}
+
+.cta-overlay p {
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.featured-trips {
+    background-color: white;
+    padding: 40px 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.featured-trips h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-intro {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trip-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.trip-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.trip-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.trip-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.difficulty {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.difficulty.beginner {
+    background-color: #27ae60;
+}
+
+.difficulty.intermediate {
+    background-color: #f39c12;
+}
+
+.difficulty.expert {
+    background-color: #e74c3c;
+}
+
+.trip-content {
+    padding: 25px;
+}
+
+.trip-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.trip-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.detail .icon {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.trip-features {
+    list-style: none;
+    margin: 15px 0;
+    padding-left: 0;
+}
+
+.trip-features li {
+    padding: 5px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+
+.btn-secondary {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: #2980b9;
+}
+
+.trips-table-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.trips-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trips-table th,
+.trips-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.trips-table th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+
+.badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.badge.beginner {
+    background-color: #27ae60;
+}
+
+.badge.intermediate {
+    background-color: #f39c12;
+}
+
+.badge.advanced {
+    background-color: #e67e22;
+}
+
+.badge.expert {
+    background-color: #e74c3c;
+}
+
+.btn-small {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 6px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.final-cta {
+    background: linear-gradient(135deg, var(--primary-color), #2c3e50);
+    color: white;
+    padding: 50px 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.final-cta h2 {
+    color: white;
+    border-bottom: none;
+}
+
+.final-cta p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 1.1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
